@@ -148,13 +148,13 @@ The Header Protocol was tested using a message longer than 16 characters.
 
 The client calculates the message length, creates the 3-byte header, and sends the header followed by the message.
 
-<img src="https://github.com/user-attachments/assets/01184960-c027-4372-aa60-04b99bc75ba2" width="700">
+<img src="https://github.com/user-attachments/assets/681342b3-3517-4db4-8196-80d997b87bf5" width="700">
 
 ### Server Output
 
 The server receives the 3-byte header, determines the message length, and receives the complete message.
 
-<img src="https://github.com/user-attachments/assets/681342b3-3517-4db4-8196-80d997b87bf5" width="700">
+<img src="https://github.com/user-attachments/assets/01184960-c027-4372-aa60-04b99bc75ba2" width="700">
 
 ## Technologies Used
 
